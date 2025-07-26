@@ -1,6 +1,9 @@
 from django.db import  models
 from django.utils.text import slugify
 from django.conf import settings
+from django.contrib.contenttypes.models import ContentType
+from django.contrib.contenttypes.fields import GenericForeignKey, GenericRelation
+
 
 class News(models.Model):
     title = models.CharField(max_length=255)
@@ -30,6 +33,13 @@ class Seo(models.Model):
     keywords = models.CharField(max_length=500, blank=True)
     description = models.TextField(blank=True)
 
+    content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
+    object_id = models.PositiveIntegerField()
+    content_object = GenericForeignKey('content_type', 'object_id')
+
+    def __str__(self):
+        return f"SEO for {self.content_object}"
+
 
 class Page(models.Model):
     LANGUAGES = [
@@ -43,7 +53,7 @@ class Page(models.Model):
     language = models.CharField(max_length=2, choices=LANGUAGES, default='ru')
 
     logo = models.ImageField(upload_to='pages/logo/', blank=True, null=True)
-    seo = models.ForeignKey(Seo, on_delete=models.CASCADE)
+    seo = GenericRelation('promotion.Seo')
 
     def __str__(self):
         return self.title

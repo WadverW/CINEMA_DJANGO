@@ -5,8 +5,9 @@ class Cinema(models.Model):
     theatre_name = models.CharField(max_length=100)
     slug = models.SlugField()
     address = models.TextField()
-    phone_number = models.CharField(max_length=20, blank=True)
+    phone_number = models.CharField(max_length=20, blank=True, null=True)
     city = models.CharField(max_length=100)
+    map_coordinates = models.CharField( max_length=50, blank=True, help_text="Координаты для карты")
 
     def __str__(self):
         return self.theatre_name

@@ -1,0 +1,115 @@
+    #
+    ClientProfile
+    user: OneToOneField
+    phone_number: CharField
+    birth: DateField
+    city: CharField
+    gender: CharField
+    language: CharField
+    card_number: CharField
+    nickname: CharField
+
+    Subscription
+    user: ForeignKey
+    is_subscribed: BooleanField
+    subscription_date: DateTimeField
+
+    #
+    Cinema
+    theatre_name: CharField
+    slug: SlugField
+    address: TextField
+    phone_number: CharField
+    city: CharField
+
+    Hall
+    cinema: ForeignKey
+    hall_number: PositiveSmallIntegerField
+    seat_qty: PositiveIntegerField
+
+    Movie
+    title: CharField
+    description: TextField
+    release: DateField
+    is_3d: BooleanField
+    is_imax: BooleanField
+    poster: ImageField
+
+    Screening
+    movie: ForeignKey
+    hall: ForeignKey
+    showtime: DateTimeField
+    price: DecimalField
+
+    Seat
+    hall: ForeignKey
+    row: CharField
+    number: PositiveIntegerField
+
+    #
+    News
+    title: CharField
+    content: TextField
+    created_at: DateTimeField
+
+    Promotion
+    title: CharField
+    description: TextField
+    expires: DateField
+    video_url: URLField
+
+    Seo
+    url: URLField
+    title: CharField
+    seo_text: TextField
+    keywords: CharField
+    description: TextField
+
+    Page
+    cinema: ForeignKey
+    title: CharField
+    description: TextField
+    slug: SlugField
+    language: CharField(choices=LANGUAGES')
+    logo: ImageField(upload_to='pages/logo/)
+    seo: ForeignKey
+
+    NewsLetter
+    message_type: CharField( choices=MESSAGE_CHOICE)
+    sms_message: TextField
+    html_file: FileField(upload_to='mail/html/)
+    created_at: DateTimeField
+    is_sent: BooleanField
+
+    all_users: BooleanField
+    selected_users: ManyToManyField(settings.AUTH_USER_MODEL)
+
+    total_recipients: PositiveIntegerField
+    sent_count: PositiveIntegerField
+
+    Banner
+    banner_url: URLField
+    text: TextField
+
+    PageImage
+    page: ForeignKey(related_name='images')
+    image: ImageField(upload_to='pages/gallery/')
+
+    BannerImage
+    banner: ForeignKey(related_name='images')
+    image: ImageField(upload_to='banners/gallery/')
+    bg_image: ImageField(upload_to='banners/background/')
+    upper_image: ImageField(upload_to='banners/upper/')
+
+    PromotionImage
+    promotion: ForeignKey(related_name='images')
+    image: ImageField(upload_to='promo/gallery/')
+    main_image: ImageField(upload_to='promo/main/')
+
+    #
+    Booking
+    user: ForeignKey
+    screening: ForeignKey
+    seat: ForeignKey
+    created_at: .DateTimeField
+    is_paid: BooleanField
