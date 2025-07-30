@@ -1,0 +1,242 @@
+{% extends "base.html" %}
+
+{% load static %}
+{% block content %}
+
+<div class="mx-auto py-0">
+    {% include 'includes/auth_form.html' %}
+    {% include 'banners/main_upper.html' %}
+    {% include 'includes/header.html' %}
+    <div class="main_slider" style="height: 600px;">
+        {% include 'includes/main_slider.html' %}
+    </div>
+    <h2><strong>Смотрите сегодня {{ date }}</strong></h2>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+
+        <div class="col">
+            <div class="movie-card card h-100 text-center p-2">
+                <div class="poster">
+                    <img src="{% static 'images/placeholders/poster_empty.jpg' %}" alt="" class="card-img-top"
+                        style="max-height: 300px; object-fit: cover;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{ movie }}</h5>
+                    <p class="card-text">{{ date }}</p>
+                    <button class="btn btn-primary">Купить билет</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="movie-card card h-100 text-center p-2">
+                <div class="poster">
+                    <img src="{% static 'images/placeholders/poster_empty.jpg' %}" alt="" class="card-img-top"
+                        style="max-height: 300px; object-fit: cover;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{ movie }}</h5>
+                    <p class="card-text">{{ date }}</p>
+                    <button class="btn btn-primary">Купить билет</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="movie-card card h-100 text-center p-2">
+                <div class="poster">
+                    <img src="{% static 'images/placeholders/poster_empty.jpg' %}" alt="" class="card-img-top"
+                        style="max-height: 300px; object-fit: cover;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{ movie }}</h5>
+                    <p class="card-text">{{ date }}</p>
+                    <button class="btn btn-primary">Купить билет</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="movie-card card h-100 text-center p-2">
+                <div class="poster">
+                    <img src="{% static 'images/placeholders/poster_empty.jpg' %}" alt="" class="card-img-top"
+                        style="max-height: 300px; object-fit: cover;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{ movie }}</h5>
+                    <p class="card-text">{{ date }}</p>
+                    <button class="btn btn-primary">Купить билет</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="movie-card card h-100 text-center p-2">
+                <div class="poster">
+                    <img src="{% static 'images/placeholders/poster_empty.jpg' %}" alt="" class="card-img-top"
+                        style="max-height: 300px; object-fit: cover;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{ movie }}</h5>
+                    <p class="card-text">{{ date }}</p>
+                    <button class="btn btn-primary">Купить билет</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="movie-card card h-100 text-center p-2">
+                <div class="poster">
+                    <img src="{% static 'images/placeholders/poster_empty.jpg' %}" alt="" class="card-img-top"
+                        style="max-height: 300px; object-fit: cover;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{ movie }}</h5>
+                    <p class="card-text">{{ date }}</p>
+                    <button class="btn btn-primary">Купить билет</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="movie-card card h-100 text-center p-2">
+                <div class="poster">
+                    <img src="{% static 'images/placeholders/poster_empty.jpg' %}" alt="" class="card-img-top"
+                        style="max-height: 300px; object-fit: cover;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{ movie }}</h5>
+                    <p class="card-text">{{ date }}</p>
+                    <button class="btn btn-primary">Купить билет</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="movie-card card h-100 text-center p-2">
+                <div class="poster">
+                    <img src="{% static 'images/placeholders/poster_empty.jpg' %}" alt="" class="card-img-top"
+                        style="max-height: 300px; object-fit: cover;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{ movie }}</h5>
+                    <p class="card-text">{{ date }}</p>
+                    <button class="btn btn-primary">Купить билет</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <h2>
+        Смотрите скоро {{ date }}
+    </h2>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+
+        <div class="col">
+            <div class="movie-card card h-100 text-center p-2">
+                <div class="poster">
+                    <img src="{% static 'images/placeholders/poster_empty.jpg' %}" alt="" class="card-img-top"
+                        style="max-height: 300px; object-fit: cover;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{ movie }}</h5>
+                    <p class="card-text">{{ date }}</p>
+                    <button class="btn btn-primary">Купить билет</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="movie-card card h-100 text-center p-2">
+                <div class="poster">
+                    <img src="{% static 'images/placeholders/poster_empty.jpg' %}" alt="" class="card-img-top"
+                        style="max-height: 300px; object-fit: cover;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{ movie }}</h5>
+                    <p class="card-text">{{ date }}</p>
+                    <button class="btn btn-primary">Купить билет</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="movie-card card h-100 text-center p-2">
+                <div class="poster">
+                    <img src="{% static 'images/placeholders/poster_empty.jpg' %}" alt="" class="card-img-top"
+                        style="max-height: 300px; object-fit: cover;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{ movie }}</h5>
+                    <p class="card-text">{{ date }}</p>
+                    <button class="btn btn-primary">Купить билет</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="movie-card card h-100 text-center p-2">
+                <div class="poster">
+                    <img src="{% static 'images/placeholders/poster_empty.jpg' %}" alt="" class="card-img-top"
+                        style="max-height: 300px; object-fit: cover;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{ movie }}</h5>
+                    <p class="card-text">{{ date }}</p>
+                    <button class="btn btn-primary">Купить билет</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="movie-card card h-100 text-center p-2">
+                <div class="poster">
+                    <img src="{% static 'images/placeholders/poster_empty.jpg' %}" alt="" class="card-img-top"
+                        style="max-height: 300px; object-fit: cover;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{ movie }}</h5>
+                    <p class="card-text">{{ date }}</p>
+                    <button class="btn btn-primary">Купить билет</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="movie-card card h-100 text-center p-2">
+                <div class="poster">
+                    <img src="{% static 'images/placeholders/poster_empty.jpg' %}" alt="" class="card-img-top"
+                        style="max-height: 300px; object-fit: cover;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{ movie }}</h5>
+                    <p class="card-text">{{ date }}</p>
+                    <button class="btn btn-primary">Купить билет</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="movie-card card h-100 text-center p-2">
+                <div class="poster">
+                    <img src="{% static 'images/placeholders/poster_empty.jpg' %}" alt="" class="card-img-top"
+                        style="max-height: 300px; object-fit: cover;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{ movie }}</h5>
+                    <p class="card-text">{{ date }}</p>
+                    <button class="btn btn-primary">Купить билет</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="movie-card card h-100 text-center p-2">
+                <div class="poster">
+                    <img src="{% static 'images/placeholders/poster_empty.jpg' %}" alt="" class="card-img-top"
+                        style="max-height: 300px; object-fit: cover;">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{ movie }}</h5>
+                    <p class="card-text">{{ date }}</p>
+                    <button class="btn btn-primary">Купить билет</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="context_advertisement">
+        {% include 'includes/context_advertisement.html' %}
+    </div>
+    {% include 'includes/footer.html' %}
+</div>
+
+{% endblock %}

@@ -1,125 +1,244 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="Страница — 1" id="jdN-In5Sup646VtUuVHt">
-    <mxGraphModel dx="1042" dy="1861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1041" dy="1763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-1" value="&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 16px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;ClientProfile&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="-1063" width="240" height="210" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-1" value="&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 16px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;ClientProfile&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="-983" width="350" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-4" value="&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;user: OneToOneField&lt;br&gt;phone_number: CharField&lt;br&gt;birth: DateField&lt;br&gt;city: CharField&lt;br&gt;gender: CharField&lt;br&gt;language: CharField&lt;br&gt;card_number: CharField&lt;br&gt;nickname: CharField&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P_w9RCwGP_6V5Zf1SZuy-1">
-          <mxGeometry x="10" y="30" width="200" height="170" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=blockThin;startFill=1;" parent="P_w9RCwGP_6V5Zf1SZuy-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="93" as="targetPoint" />
+            <mxPoint x="350" y="193" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="820" y="193" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-5" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255)); font-size: 16px;&quot;&gt;Subscription&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="-1063" width="280" height="140" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-4" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;user: OneToOneField&lt;br&gt;phone_number: CharField&lt;br&gt;birth: DateField&lt;br&gt;city: CharField&lt;br&gt;gender: CharField&lt;br&gt;language: CharField(&lt;/font&gt;&lt;/span&gt;choices=LANGUAGE_CHOICES)&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;card_number: CharField&lt;br&gt;nickname: CharField&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="P_w9RCwGP_6V5Zf1SZuy-1" vertex="1">
+          <mxGeometry x="10" y="25" width="340" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-6" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;user: ForeignKey&lt;br&gt;is_subscribed: BooleanField&lt;br&gt;subscription_date: DateTimeField&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P_w9RCwGP_6V5Zf1SZuy-5">
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-5" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255)); font-size: 16px;&quot;&gt;Subscription&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="-983" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;" parent="P_w9RCwGP_6V5Zf1SZuy-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="93" as="targetPoint" />
+            <mxPoint x="145" y="143" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="145" y="173" />
+              <mxPoint x="430" y="173" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-6" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;user: ForeignKey&lt;br&gt;is_subscribed: BooleanField&lt;br&gt;subscription_date: DateTimeField&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="P_w9RCwGP_6V5Zf1SZuy-5" vertex="1">
           <mxGeometry x="10" y="20" width="270" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-7" value="&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 16px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;Cinema&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="365" y="-783" width="220" height="201" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-7" value="&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 16px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;Cinema&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="495" y="-703" width="220" height="201" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-8" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;theatre_name: CharField&lt;br&gt;slug: SlugField&lt;br&gt;address: TextField&lt;br&gt;phone_number: CharField&lt;br&gt;city: CharField&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P_w9RCwGP_6V5Zf1SZuy-7">
-          <mxGeometry x="10" y="30" width="200" height="120" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-8" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;theatre_name: CharField&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;img_logo: ImageField&lt;br&gt;slug: SlugField&lt;br&gt;address: TextField&lt;br&gt;phone_number: CharField&lt;br&gt;city: CharField&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="P_w9RCwGP_6V5Zf1SZuy-7" vertex="1">
+          <mxGeometry x="10" y="15" width="200" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Hall&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="-543" width="330" height="140" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;" parent="1" source="P_w9RCwGP_6V5Zf1SZuy-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="-500" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-10" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;cinema: ForeignKey&lt;br&gt;hall_number: PositiveSmallIntegerField&lt;br&gt;seat_qty: PositiveIntegerField&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P_w9RCwGP_6V5Zf1SZuy-9">
-          <mxGeometry x="10" y="25" width="320" height="90" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Hall&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="205" y="-463" width="360" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-11" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Movie&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="-781" width="200" height="200" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-10" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;cinema: ForeignKey&lt;br&gt;hall_number: PositiveSmallIntegerField&lt;br&gt;seat_qty: PositiveIntegerField&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px;&quot;&gt;hall_type: CharField(choices=HALL_CHOICES)&lt;/div&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="P_w9RCwGP_6V5Zf1SZuy-9" vertex="1">
+          <mxGeometry x="10" y="10" width="350" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-12" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;title: CharField&lt;br&gt;description: TextField&lt;br&gt;release: DateField&lt;br&gt;is_3d: BooleanField&lt;br&gt;is_imax: BooleanField&lt;br&gt;poster: ImageField&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P_w9RCwGP_6V5Zf1SZuy-11">
-          <mxGeometry x="10" y="30" width="190" height="140" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-11" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Movie&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="770" y="-704" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-42" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2018px%3B%26quot%3B%26gt%3B%26lt%3Bb%26gt%3B%26lt%3Bu%26gt%3BPromotion%26lt%3B%2Fu%26gt%3B%26lt%3B%2Fb%26gt%3B%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22230%22%20y%3D%22940%22%20width%3D%22110%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3ECinema&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P_w9RCwGP_6V5Zf1SZuy-11">
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-12" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;title: CharField&lt;br&gt;description: TextField&lt;br&gt;release: DateField&lt;br&gt;poster: ImageField&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="P_w9RCwGP_6V5Zf1SZuy-11" vertex="1">
+          <mxGeometry x="10" y="50" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-42" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2018px%3B%26quot%3B%26gt%3B%26lt%3Bb%26gt%3B%26lt%3Bu%26gt%3BPromotion%26lt%3B%2Fu%26gt%3B%26lt%3B%2Fb%26gt%3B%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22230%22%20y%3D%22940%22%20width%3D%22110%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3ECinema&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="P_w9RCwGP_6V5Zf1SZuy-11" vertex="1">
           <mxGeometry x="130" y="-54" width="20" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-13" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Screening&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="-373" width="210" height="153" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;" parent="1" source="P_w9RCwGP_6V5Zf1SZuy-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="-510" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-14" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;movie: ForeignKey&lt;br&gt;hall: ForeignKey&lt;br&gt;showtime: DateTimeField&lt;br&gt;price: DecimalField&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P_w9RCwGP_6V5Zf1SZuy-13">
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-13" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Screening&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="-293" width="210" height="153" as="geometry" />
+        </mxCell>
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-14" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;movie: ForeignKey&lt;br&gt;hall: ForeignKey&lt;br&gt;showtime: DateTimeField&lt;br&gt;price: DecimalField&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="P_w9RCwGP_6V5Zf1SZuy-13" vertex="1">
           <mxGeometry x="10" y="20" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-15" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Seat&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="-373" width="250" height="150" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-15" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Seat&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="-293" width="250" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-16" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;hall: ForeignKey&lt;br&gt;row: CharField&lt;br&gt;number: PositiveIntegerField&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P_w9RCwGP_6V5Zf1SZuy-15">
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;" parent="P_w9RCwGP_6V5Zf1SZuy-15" source="P_w9RCwGP_6V5Zf1SZuy-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="-27" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-16" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;hall: ForeignKey&lt;br&gt;row: CharField&lt;br&gt;number: PositiveIntegerField&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="P_w9RCwGP_6V5Zf1SZuy-15" vertex="1">
           <mxGeometry x="10" y="30" width="240" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;News&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="-103" width="230" height="150" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;News&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="-23" width="230" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-18" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;title: CharField&lt;br&gt;content: TextField&lt;br&gt;created_at: DateTimeField&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P_w9RCwGP_6V5Zf1SZuy-17">
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-18" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;title: CharField&lt;br&gt;content: TextField&lt;br&gt;created_at: DateTimeField&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="P_w9RCwGP_6V5Zf1SZuy-17" vertex="1">
           <mxGeometry x="10" y="30" width="220" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-19" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Promotion&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="-103" width="210" height="153" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-19" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Promotion&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="-23" width="210" height="153" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-20" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;title: CharField&lt;br&gt;description: TextField&lt;br&gt;expires: DateField&lt;br&gt;video_url: URLField&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P_w9RCwGP_6V5Zf1SZuy-19">
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-20" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;title: CharField&lt;br&gt;description: TextField&lt;br&gt;expires: DateField&lt;br&gt;video_url: URLField&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="P_w9RCwGP_6V5Zf1SZuy-19" vertex="1">
           <mxGeometry x="20" y="30" width="190" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-21" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Seo&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="137" width="580" height="200" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-21" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Seo&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="217" width="580" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-22" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;url: URLField&lt;br&gt;title: CharField&lt;br&gt;seo_text: TextField&lt;br&gt;keywords: CharField&lt;br&gt;description: TextField&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;content_type: ForeignKey(ContentType)&lt;br&gt;object_id: PositiveIntegerField&lt;br&gt;content_object: GenericForeignKey(&#39;content_type&#39;, &#39;object_id&#39;)&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P_w9RCwGP_6V5Zf1SZuy-21">
-          <mxGeometry x="10" width="500" height="180" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-22" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;url: URLField&lt;br&gt;title: CharField&lt;br&gt;seo_text: TextField&lt;br&gt;keywords: CharField&lt;br&gt;description: TextField&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;content_type: ForeignKey(ContentType)&lt;br&gt;object_id: PositiveIntegerField&lt;br&gt;content_object: GenericForeignKey(&#39;content_type&#39;, &#39;object_id&#39;)&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="P_w9RCwGP_6V5Zf1SZuy-21" vertex="1">
+          <mxGeometry x="12" y="13" width="500" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-23" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Page&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="80" y="137" width="340" height="200" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-23" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Page&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="210" y="217" width="340" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-24" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;cinema: ForeignKey&lt;br&gt;title: CharField&lt;br&gt;description: TextField&lt;br&gt;slug: SlugField&lt;br&gt;language: CharField(choices=LANGUAGES&#39;)&lt;br&gt;logo: ImageField(upload_to=&#39;pages/logo/)&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;seo: GenericRelation&lt;/pre&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P_w9RCwGP_6V5Zf1SZuy-23">
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;" parent="P_w9RCwGP_6V5Zf1SZuy-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="-837" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-30" y="100" />
+              <mxPoint x="-30" y="-837" />
+            </Array>
+            <mxPoint x="-10" y="100" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-24" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;cinema: ForeignKey&lt;br&gt;title: CharField&lt;br&gt;description: TextField&lt;br&gt;slug: SlugField&lt;br&gt;language: CharField(choices=LANGUAGES&#39;)&lt;br&gt;logo: ImageField(upload_to=&#39;pages/logo/)&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;seo: GenericRelation&lt;/pre&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="P_w9RCwGP_6V5Zf1SZuy-23" vertex="1">
           <mxGeometry x="10" y="5" width="330" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-25" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;NewsLetter&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="417" width="470" height="240" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-25" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;NewsLetter&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="470" width="470" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-26" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;message_type: CharField( choices=MESSAGE_CHOICE)&lt;br&gt;sms_message: TextField&lt;br&gt;html_file: FileField(upload_to=&#39;mail/html/)&lt;br&gt;created_at: DateTimeField&lt;br&gt;is_sent: BooleanField&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;all_users: BooleanField&lt;br&gt;selected_users: ManyToManyField(settings.AUTH_USER_MODEL)&lt;br&gt;&lt;br&gt;total_recipients: PositiveIntegerField&lt;br&gt;sent_count: PositiveIntegerField&lt;/pre&gt;&lt;/div&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P_w9RCwGP_6V5Zf1SZuy-25">
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-26" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;message_type: CharField( choices=MESSAGE_CHOICE)&lt;br&gt;sms_message: TextField&lt;br&gt;html_file: FileField(upload_to=&#39;mail/html/)&lt;br&gt;created_at: DateTimeField&lt;br&gt;is_sent: BooleanField&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;all_users: BooleanField&lt;br&gt;selected_users: ManyToManyField(settings.AUTH_USER_MODEL)&lt;br&gt;&lt;br&gt;total_recipients: PositiveIntegerField&lt;br&gt;sent_count: PositiveIntegerField&lt;/pre&gt;&lt;/div&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="P_w9RCwGP_6V5Zf1SZuy-25" vertex="1">
           <mxGeometry x="20" y="19" width="460" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-27" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Banner&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="-103" width="210" height="110" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-27" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Banner&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="850" y="-23" width="210" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-28" value="&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;banner_url: URLField&lt;br&gt;text: TextField&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P_w9RCwGP_6V5Zf1SZuy-27">
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-28" value="&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;banner_url: URLField&lt;br&gt;text: TextField&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="P_w9RCwGP_6V5Zf1SZuy-27" vertex="1">
           <mxGeometry x="10" y="20" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-29" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;PageImage&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="599" y="587" width="410" height="110" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-29" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;PageImage&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="205" y="660" width="410" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-30" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;page: ForeignKey(related_name=&#39;images&#39;)&lt;br&gt;image: ImageField(upload_to=&#39;pages/gallery/&#39;)&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P_w9RCwGP_6V5Zf1SZuy-29">
-          <mxGeometry x="10" y="20" width="370" height="70" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-30" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;page: ForeignKey(related_name=&#39;images&#39;)&lt;br&gt;image: ImageField(upload_to=&#39;pages/gallery/&#39;)&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;main_image: ImageField(upload_to=&#39;pages/main/&#39;)&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="P_w9RCwGP_6V5Zf1SZuy-29" vertex="1">
+          <mxGeometry x="10" y="5" width="390" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-31" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;BannerImage&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="417" width="450" height="140" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERmany;startFill=0;" parent="1" source="P_w9RCwGP_6V5Zf1SZuy-31" target="P_w9RCwGP_6V5Zf1SZuy-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="160" />
+              <mxPoint x="810" y="160" />
+              <mxPoint x="810" y="32" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-32" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;banner: ForeignKey(related_name=&#39;images&#39;)&lt;br&gt;image: ImageField(upload_to=&#39;banners/gallery/&#39;)&lt;br&gt;bg_image: ImageField(upload_to=&#39;banners/background/&#39;)&lt;br&gt;upper_image: ImageField(upload_to=&#39;banners/upper/&#39;)&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="620" y="437" width="430" height="100" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-31" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;BannerImage&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="206" y="490" width="450" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-33" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;PromoImage&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="737" width="410" height="120" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="350" as="targetPoint" />
+            <mxPoint x="200" y="700" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="160" y="700" />
+              <mxPoint x="160" y="350" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-34" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;promotion: ForeignKey(related_name=&#39;images&#39;)&lt;br&gt;image: ImageField(upload_to=&#39;promo/gallery/&#39;)&lt;br&gt;main_image: ImageField(upload_to=&#39;promo/main/&#39;)&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="620" y="757" width="390" height="90" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-32" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255)); font-size: 14px;&quot;&gt;banner: ForeignKey(related_name=&#39;images&#39;)&lt;br&gt;image: ImageField(upload_to=&#39;banners/gallery/&#39;)&lt;br&gt;bg_image: ImageField(upload_to=&#39;banners/background/&#39;)&lt;br&gt;upper_image: ImageField(upload_to=&#39;banners/upper/&#39;)&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="226" y="510" width="430" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-35" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Booking&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="777" width="240" height="173" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-33" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;PromoImage&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="206" y="810" width="410" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-36" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;user: ForeignKey&lt;br&gt;screening: ForeignKey&lt;br&gt;seat: ForeignKey&lt;br&gt;created_at: .DateTimeField&lt;br&gt;is_paid: BooleanField&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="P_w9RCwGP_6V5Zf1SZuy-35">
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="30" as="targetPoint" />
+            <mxPoint x="200" y="875" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="140" y="875" />
+              <mxPoint x="140" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-34" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;promotion: ForeignKey(related_name=&#39;images&#39;)&lt;br&gt;image: ImageField(upload_to=&#39;promo/gallery/&#39;)&lt;br&gt;main_image: ImageField(upload_to=&#39;promo/main/&#39;)&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="226" y="830" width="390" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;" parent="1" source="P_w9RCwGP_6V5Zf1SZuy-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="-130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1090" y="-60" />
+              <mxPoint x="690" y="-60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P_w9RCwGP_6V5Zf1SZuy-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="-140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1090" y="-90" />
+              <mxPoint x="320" y="-90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-35" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Booking&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="970" y="-298" width="240" height="173" as="geometry" />
+        </mxCell>
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-36" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(188, 190, 196), rgb(255, 255, 255));&quot;&gt;user: ForeignKey&lt;br&gt;screening: ForeignKey&lt;br&gt;seat: ForeignKey&lt;br&gt;created_at: .DateTimeField&lt;br&gt;is_paid: BooleanField&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="P_w9RCwGP_6V5Zf1SZuy-35" vertex="1">
           <mxGeometry x="20" y="20" width="220" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-37" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;u&gt;&lt;b&gt;booking&lt;/b&gt;&lt;/u&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="85" y="727" width="90" height="40" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-37" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;u&gt;&lt;b&gt;booking&lt;/b&gt;&lt;/u&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="975" y="-348" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-40" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;u&gt;promotion&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="270" y="-163" width="110" height="40" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-40" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;u&gt;promotion&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="400" y="-83" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-44" value="&lt;b&gt;&lt;u&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;c&lt;/font&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;inema_app&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="255" y="-830" width="130" height="40" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-44" value="&lt;b&gt;&lt;u&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;c&lt;/font&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;inema_app&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="385" y="-750" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-45" value="&lt;b&gt;&lt;u&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;accounts&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="260" y="-1110" width="100" height="40" as="geometry" />
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-45" value="&lt;b&gt;&lt;u&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;accounts&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="390" y="-1030" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-47" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;User(AbstractUser)&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="-983" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-48" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;...&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="P_w9RCwGP_6V5Zf1SZuy-47" vertex="1">
+          <mxGeometry x="50" y="37" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1.053;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERmany;startFill=0;" parent="1" target="P_w9RCwGP_6V5Zf1SZuy-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="-220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERmany;startFill=0;endArrow=ERmany;endFill=0;" parent="1" source="P_w9RCwGP_6V5Zf1SZuy-26" target="P_w9RCwGP_6V5Zf1SZuy-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="599" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1300" y="599" />
+              <mxPoint x="1300" y="-938" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P_w9RCwGP_6V5Zf1SZuy-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;startArrow=ERmany;startFill=0;" parent="1" target="P_w9RCwGP_6V5Zf1SZuy-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="-300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U6CKDR1NNKuknFqtmk_2-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERmany;startFill=0;" edge="1" parent="1" source="P_w9RCwGP_6V5Zf1SZuy-24" target="P_w9RCwGP_6V5Zf1SZuy-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
